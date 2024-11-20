@@ -2,7 +2,7 @@ name: Fetch Google Trends Feed
 
 on:
   schedule:
-    - cron: "*/30 * * * *" # Menjalankan setiap 30 menit
+    - cron: "*/5 * * * *" # Menjalankan setiap 30 menit
   workflow_dispatch: # Memungkinkan menjalankan secara manual
 
 jobs:
